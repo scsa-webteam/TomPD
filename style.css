@@ -1,0 +1,38 @@
+body {
+  background-color: #CCC; }
+  body .head {
+    width: 100%;
+    height: 100px;
+    background-color: red; }
+  body .content {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white; }
+    body .content .menu {
+      background-color: black;
+      color: white;
+      position: relative;
+      padding: 10px;
+      margin: 0; }
+      body .content .menu li {
+        display: inline-block;
+        list-style: none; }
+        body .content .menu li ul {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          padding: 10px; }
+          body .content .menu li ul li {
+            display: block;
+            color: black; }
+        body .content .menu li:hover > ul {
+          display: block; }
+    body .content .breadcrumbs {
+      background-color: pink;
+      margin: 0; }
+      body .content .breadcrumbs li {
+        display: inline-block;
+        list-style: none; }
+
+/*# sourceMappingURL=style.css.map */
