@@ -1,5 +1,5 @@
 // JavaScript Document
 
 $(document).ready(function() {
-	alert("hello you");
+	alert("hello you there");
 });    
