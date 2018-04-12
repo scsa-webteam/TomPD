@@ -3,7 +3,7 @@ body {
   body .head {
     width: 100%;
     height: 100px;
-    background-color: red; }
+    background-color: yellow; }
   body .content {
     width: 80%;
     margin: 0 auto;
