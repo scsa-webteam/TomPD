@@ -1,5 +1,5 @@
 // JavaScript Document
 
 $(document).ready(function() {
-	alert("Really? Working now? Again!!!");
+	alert("Does it work????");
 });    
